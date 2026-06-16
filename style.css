@@ -1,0 +1,141 @@
+/* REGRAS GERAIS */
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+}
+
+:root {
+    --fonte1: "Passion One", sans-serif;
+    --fonte2: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte3: "Sriracha", cursive;
+}
+
+
+
+
+
+
+
+
+/* SITE */
+
+a {
+  text-decoration: none; 
+  color: white;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+.mark1 {
+    font-weight: bold; 
+}
+
+body {
+    font-family: var(--fonte2);
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px 40px 50px 40px;
+}
+
+header h1 {
+    font: normal small-caps bold 10vw var(--fonte1);
+}
+
+
+
+
+/* MAIN */
+main {
+    font: normal normal 3.5vw var(--fonte3);
+}
+
+.normalbg {
+    padding-top: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    padding-bottom: 10vh;
+}
+
+.normalbgtext {
+    padding-bottom: 2em;
+}
+
+
+
+/* IMAGEM 1 */
+
+
+
+
+section#fundo1 {
+    box-shadow: inset 2px 0px 16px 0px rgba(0, 0, 0, 0.671);
+    padding: 10vh 0px 10vh 30px;
+    background: rgb(0, 116, 48) url('imagens/background001.jpg') center center no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+
+
+.fundotexto {
+    display: inline-block;
+}
+
+.fundotexto > p {
+    padding: 0px 5px 0px 5px;
+    background-color: rgba(0, 0, 0, 0.450);
+    line-height: 2.1em;
+    text-shadow: 1px 2px 1px black;
+}
+
+
+
+
+
+/* IMAGEM 2 */
+
+
+
+
+section#fundo2 {
+    box-shadow: inset 2px 0px 16px 0px rgba(0, 0, 0, 0.671);
+    padding: 10vh 0px 10vh 30px;
+    background: rgb(107, 104, 98) url('imagens/background002.jpg') center center no-repeat fixed;
+    background-size: cover;
+    color: white;
+}
+
+
+
+
+
+
+/* FOOTER */
+
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
